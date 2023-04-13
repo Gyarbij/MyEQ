@@ -1,0 +1,557 @@
+{
+	"schemaVersion": 1,
+	"configProperties": {
+		"name": "eqdash"
+	},
+	"categories": [
+		{
+			"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f",
+			"position": 1,
+			"name": "Welcome to Your EQ",
+			"type": "category"
+		}
+	],
+	"wrappers": [
+		{
+			"id": "default",
+			"position": 0
+		},
+		{
+			"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a326",
+			"position": 1
+		}
+	],
+	"apps": [
+		{
+			"id": "bd0a4207-f0e6-4a28-b07d-02d6d6a86b63",
+			"name": "Prime Video",
+			"url": "https://www.primevideo.com/",
+			"appearance": {
+				"iconUrl": "https://cdn.jsdelivr.net/gh/PapirusDevelopmentTeam/papirus_icons/src/apps_amazon_prime_video.svg"
+			},
+			"network": {
+				"enabledStatusChecker": true,
+				"okStatus": [
+					200
+				]
+			},
+			"behaviour": {
+				"isOpeningNewTab": false,
+				"externalUrl": "https://www.primevideo.com/"
+			},
+			"area": {
+				"type": "category",
+				"properties": {
+					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+				}
+			},
+			"shape": {
+				"md": {
+					"location": {
+						"x": 4,
+						"y": 0
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				}
+			},
+			"integration": {
+				"type": null,
+				"properties": []
+			}
+		},
+		{
+			"id": "8f999f35-144b-45be-b9fe-55828fb35c01",
+			"name": "Deezer",
+			"url": "https://www.deezer.com",
+			"appearance": {
+				"iconUrl": "https://logos-world.net/wp-content/uploads/2021/03/Deezer-Logo.png"
+			},
+			"network": {
+				"enabledStatusChecker": true,
+				"okStatus": [
+					200
+				]
+			},
+			"behaviour": {
+				"isOpeningNewTab": false,
+				"externalUrl": "https://www.deezer.com"
+			},
+			"area": {
+				"type": "category",
+				"properties": {
+					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+				}
+			},
+			"shape": {
+				"md": {
+					"location": {
+						"x": 5,
+						"y": 0
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				}
+			},
+			"integration": {
+				"type": null,
+				"properties": []
+			}
+		},
+		{
+			"id": "08909227-6c72-454d-a13b-73e9c12184a1",
+			"name": "Paramount+",
+			"url": "https://www.paramountplus.com/",
+			"appearance": {
+				"iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Paramount%2B_logo.svg/440px-Paramount%2B_logo.svg.png"
+			},
+			"network": {
+				"enabledStatusChecker": true,
+				"okStatus": [
+					200
+				]
+			},
+			"behaviour": {
+				"isOpeningNewTab": false,
+				"externalUrl": "https://www.paramountplus.com/"
+			},
+			"area": {
+				"type": "category",
+				"properties": {
+					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+				}
+			},
+			"shape": {
+				"md": {
+					"location": {
+						"x": 0,
+						"y": 1
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				}
+			},
+			"integration": {
+				"type": null,
+				"properties": []
+			}
+		},
+		{
+			"id": "6f8c1a4b-8127-4c1e-9a6d-3dd61068dd33",
+			"name": "Hulu",
+			"url": "https://hulu.com",
+			"appearance": {
+				"iconUrl": "https://www.edigitalagency.com.au/wp-content/uploads/hulu-logo-png.png"
+			},
+			"network": {
+				"enabledStatusChecker": true,
+				"okStatus": [
+					200
+				]
+			},
+			"behaviour": {
+				"isOpeningNewTab": false,
+				"externalUrl": "https://hulu.com"
+			},
+			"area": {
+				"type": "category",
+				"properties": {
+					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+				}
+			},
+			"shape": {
+				"md": {
+					"location": {
+						"x": 1,
+						"y": 1
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				}
+			},
+			"integration": {
+				"type": null,
+				"properties": []
+			}
+		},
+		{
+			"id": "7fb5604b-71e8-4985-a69e-bba7075d2621",
+			"name": "Netflix",
+			"url": "https://netflix.com",
+			"appearance": {
+				"iconUrl": "https://cdn.jsdelivr.net/gh/PapirusDevelopmentTeam/papirus_icons/src/apps_netflix.svg"
+			},
+			"network": {
+				"enabledStatusChecker": true,
+				"okStatus": [
+					200
+				]
+			},
+			"behaviour": {
+				"isOpeningNewTab": false,
+				"externalUrl": "https://netflix.com"
+			},
+			"area": {
+				"type": "category",
+				"properties": {
+					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+				}
+			},
+			"shape": {
+				"md": {
+					"location": {
+						"x": 0,
+						"y": 0
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				}
+			},
+			"integration": {
+				"type": null,
+				"properties": []
+			}
+		},
+		{
+			"id": "d189939d-dbdd-47ea-b219-6ed8ee9bf670",
+			"name": "Tencent Video",
+			"url": "https://wetv.vip",
+			"appearance": {
+				"iconUrl": "https://seeklogo.com/images/T/tencent-video-icon-logo-780F21E542-seeklogo.com.png"
+			},
+			"network": {
+				"enabledStatusChecker": true,
+				"okStatus": [
+					200
+				]
+			},
+			"behaviour": {
+				"isOpeningNewTab": false,
+				"externalUrl": "https://wetv.vip"
+			},
+			"area": {
+				"type": "category",
+				"properties": {
+					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+				}
+			},
+			"shape": {
+				"md": {
+					"location": {
+						"x": 2,
+						"y": 1
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				}
+			},
+			"integration": {
+				"type": null,
+				"properties": []
+			}
+		},
+		{
+			"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a990",
+			"name": "YouTube",
+			"url": "https://youtube.com",
+			"behaviour": {
+				"onClickUrl": "https://youtube.com",
+				"externalUrl": "https://youtube.com",
+				"isOpeningNewTab": false
+			},
+			"network": {
+				"enabledStatusChecker": false,
+				"okStatus": [
+					200
+				]
+			},
+			"appearance": {
+				"iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/youtube.png"
+			},
+			"integration": {
+				"type": null,
+				"properties": []
+			},
+			"area": {
+				"type": "category",
+				"properties": {
+					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+				}
+			},
+			"shape": {
+				"md": {
+					"location": {
+						"x": 1,
+						"y": 0
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				},
+				"sm": {
+					"location": {
+						"x": 2,
+						"y": 2
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				},
+				"lg": {
+					"location": {
+						"x": 3,
+						"y": 1
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				}
+			}
+		},
+		{
+			"id": "8f258a32-d5b8-427f-ad3f-430769e401de",
+			"name": "Discovery+",
+			"url": "https://www.discoveryplus.com/",
+			"appearance": {
+				"iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Discovery_Plus_logo.svg/440px-Discovery_Plus_logo.svg.png"
+			},
+			"network": {
+				"enabledStatusChecker": true,
+				"okStatus": [
+					200
+				]
+			},
+			"behaviour": {
+				"isOpeningNewTab": false,
+				"externalUrl": "https://www.discoveryplus.com/"
+			},
+			"area": {
+				"type": "category",
+				"properties": {
+					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+				}
+			},
+			"shape": {
+				"md": {
+					"location": {
+						"x": 3,
+						"y": 1
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				}
+			},
+			"integration": {
+				"type": null,
+				"properties": []
+			}
+		},
+		{
+			"id": "e9479978-8c4c-430a-9bf2-6d038d2d90ad",
+			"name": "Apple TV",
+			"url": "https://tv.apple.com/",
+			"appearance": {
+				"iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Apple_TV_Plus_Logo.svg/240px-Apple_TV_Plus_Logo.svg.png"
+			},
+			"network": {
+				"enabledStatusChecker": true,
+				"okStatus": [
+					200
+				]
+			},
+			"behaviour": {
+				"isOpeningNewTab": false,
+				"externalUrl": "https://tv.apple.com/"
+			},
+			"area": {
+				"type": "category",
+				"properties": {
+					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+				}
+			},
+			"shape": {
+				"md": {
+					"location": {
+						"x": 4,
+						"y": 1
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				}
+			},
+			"integration": {
+				"type": null,
+				"properties": []
+			}
+		},
+		{
+			"id": "e0abc1ad-493e-435c-8ea4-f4701c4af171",
+			"name": "Disney+",
+			"url": "https://www.disneyplus.com/home",
+			"appearance": {
+				"iconUrl": "https://cdn.jsdelivr.net/gh/PapirusDevelopmentTeam/papirus_icons/src/apps_disney_plus.svg"
+			},
+			"network": {
+				"enabledStatusChecker": true,
+				"okStatus": [
+					200
+				]
+			},
+			"behaviour": {
+				"isOpeningNewTab": false,
+				"externalUrl": "https://www.disneyplus.com/home"
+			},
+			"area": {
+				"type": "category",
+				"properties": {
+					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+				}
+			},
+			"shape": {
+				"md": {
+					"location": {
+						"x": 2,
+						"y": 0
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				}
+			},
+			"integration": {
+				"type": null,
+				"properties": []
+			}
+		},
+		{
+			"id": "283b6648-ccff-44ae-8774-03cfdb14e8af",
+			"name": "Manuals",
+			"url": "https://github.com/Gyarbij/MyEQ/tree/main/manuals/EQS",
+			"appearance": {
+				"iconUrl": "https://cdn.jsdelivr.net/gh/PapirusDevelopmentTeam/papirus_icons/src/apps_user_manual.svg"
+			},
+			"network": {
+				"enabledStatusChecker": true,
+				"okStatus": [
+					200
+				]
+			},
+			"behaviour": {
+				"isOpeningNewTab": false,
+				"externalUrl": "https://github.com/Gyarbij/MyEQ/tree/main/manuals/EQS"
+			},
+			"area": {
+				"type": "category",
+				"properties": {
+					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+				}
+			},
+			"shape": {
+				"md": {
+					"location": {
+						"x": 5,
+						"y": 1
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				}
+			},
+			"integration": {
+				"type": null,
+				"properties": []
+			}
+		},
+		{
+			"id": "c854e0e2-da67-401b-abec-e0caad8ad6c3",
+			"name": "HBO Max",
+			"url": "https://hbomax.com",
+			"appearance": {
+				"iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/HBO_Max_Logo_Old.svg/2560px-HBO_Max_Logo_Old.svg.png"
+			},
+			"network": {
+				"enabledStatusChecker": true,
+				"okStatus": [
+					200
+				]
+			},
+			"behaviour": {
+				"isOpeningNewTab": false,
+				"externalUrl": "https://hbomax.com"
+			},
+			"area": {
+				"type": "category",
+				"properties": {
+					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+				}
+			},
+			"shape": {
+				"md": {
+					"location": {
+						"x": 3,
+						"y": 0
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				}
+			},
+			"integration": {
+				"type": null,
+				"properties": []
+			}
+		}
+	],
+	"widgets": [],
+	"settings": {
+		"common": {
+			"searchEngine": {
+				"type": "google",
+				"properties": {}
+			}
+		},
+		"customization": {
+			"layout": {
+				"enabledLeftSidebar": false,
+				"enabledRightSidebar": false,
+				"enabledDocker": false,
+				"enabledPing": false,
+				"enabledSearchbar": true
+			},
+			"pageTitle": "‎",
+			"logoImageUrl": "https://myeq.blob.core.windows.net/img/EQ.png",
+			"faviconUrl": "https://myeq.blob.core.windows.net/img/favicon.ico",
+			"backgroundImageUrl": "https://myeq.blob.core.windows.net/img/EQS-3.jpg",
+			"customCss": "",
+			"colors": {
+				"primary": "blue",
+				"secondary": "indigo",
+				"shade": 9
+			},
+			"appOpacity": 20,
+			"metaTitle": "MyMercedesEQ"
+		}
+	}
+}
