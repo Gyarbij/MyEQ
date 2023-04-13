@@ -17,3 +17,4 @@ I'm currently working on a way to control the car's climate control and charging
 
 ## How does it look?
 ![MyEQ](images/MyEQ.png)
+![EQS](images/EQS.jpg)
