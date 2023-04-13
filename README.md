@@ -16,4 +16,4 @@ You can also run it locally by following the instructions TOBEADDED.
 I'm currently working on a way to control the car's climate control and charging via Home Assistant as well as display the current state of the car. I'm also working on a way to control the car's media via Home Assistant. Prior however will probably go to adding support for cloud backup of dashcam footage.
 
 ## How does it look?
-images/MyEQ.png
+![MyEQ](images/MyEQ.png)
