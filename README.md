@@ -1,5 +1,5 @@
 # MyEQ
-Browser based media Dashboard and files for Mercedes EQ Vechicles (will work on S/E/C Klasse new MBUX)
+Browser based media Dashboard for Mercedes EQ Vechicles (will work on S/E/C Klasse new MBUX)
 
 ## What is this?
 A dashboard for Mercedes EQ cars. It is a web application that runs on [Homarr](https://github.com/ajnart/homarr) and provides a dashboard to popular media services like Disney+, Deezer, YouTube, etc. It also provides a way to control the car's climate control and charging.
