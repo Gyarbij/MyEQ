@@ -23,6 +23,66 @@
 	],
 	"apps": [
 		{
+			"id": "c854e0e2-da67-401b-abec-e0caad8ad6c3",
+			"name": "HBO Max",
+			"url": "https://hbomax.com",
+			"appearance": {
+				"iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/HBO_Max_Logo_Old.svg/2560px-HBO_Max_Logo_Old.svg.png"
+			},
+			"network": {
+				"enabledStatusChecker": true,
+				"statusCodes": [
+					"200"
+				]
+			},
+			"behaviour": {
+				"isOpeningNewTab": false,
+				"externalUrl": "https://hbomax.com"
+			},
+			"area": {
+				"type": "category",
+				"properties": {
+					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+				}
+			},
+			"shape": {
+				"md": {
+					"location": {
+						"x": 3,
+						"y": 0
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				},
+				"sm": {
+					"location": {
+						"x": 1,
+						"y": 3
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				},
+				"lg": {
+					"location": {
+						"x": 9,
+						"y": 0
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				}
+			},
+			"integration": {
+				"type": null,
+				"properties": []
+			}
+		},
+		{
 			"id": "bd0a4207-f0e6-4a28-b07d-02d6d6a86b63",
 			"name": "Prime Video",
 			"url": "https://www.primevideo.com/",
@@ -31,8 +91,8 @@
 			},
 			"network": {
 				"enabledStatusChecker": true,
-				"okStatus": [
-					200
+				"statusCodes": [
+					"200"
 				]
 			},
 			"behaviour": {
@@ -55,40 +115,20 @@
 						"width": 1,
 						"height": 1
 					}
-				}
-			},
-			"integration": {
-				"type": null,
-				"properties": []
-			}
-		},
-		{
-			"id": "8f999f35-144b-45be-b9fe-55828fb35c01",
-			"name": "Deezer",
-			"url": "https://www.deezer.com",
-			"appearance": {
-				"iconUrl": "https://logos-world.net/wp-content/uploads/2021/03/Deezer-Logo.png"
-			},
-			"network": {
-				"enabledStatusChecker": true,
-				"okStatus": [
-					200
-				]
-			},
-			"behaviour": {
-				"isOpeningNewTab": false,
-				"externalUrl": "https://www.deezer.com"
-			},
-			"area": {
-				"type": "category",
-				"properties": {
-					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
-				}
-			},
-			"shape": {
-				"md": {
+				},
+				"sm": {
 					"location": {
-						"x": 5,
+						"x": 0,
+						"y": 0
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				},
+				"lg": {
+					"location": {
+						"x": 10,
 						"y": 0
 					},
 					"size": {
@@ -111,8 +151,8 @@
 			},
 			"network": {
 				"enabledStatusChecker": true,
-				"okStatus": [
-					200
+				"statusCodes": [
+					"200"
 				]
 			},
 			"behaviour": {
@@ -135,6 +175,26 @@
 						"width": 1,
 						"height": 1
 					}
+				},
+				"sm": {
+					"location": {
+						"x": 2,
+						"y": 0
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				},
+				"lg": {
+					"location": {
+						"x": 1,
+						"y": 0
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
 				}
 			},
 			"integration": {
@@ -151,8 +211,8 @@
 			},
 			"network": {
 				"enabledStatusChecker": true,
-				"okStatus": [
-					200
+				"statusCodes": [
+					"200"
 				]
 			},
 			"behaviour": {
@@ -175,6 +235,26 @@
 						"width": 1,
 						"height": 1
 					}
+				},
+				"sm": {
+					"location": {
+						"x": 0,
+						"y": 1
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				},
+				"lg": {
+					"location": {
+						"x": 2,
+						"y": 0
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
 				}
 			},
 			"integration": {
@@ -191,8 +271,8 @@
 			},
 			"network": {
 				"enabledStatusChecker": true,
-				"okStatus": [
-					200
+				"statusCodes": [
+					"200"
 				]
 			},
 			"behaviour": {
@@ -215,6 +295,26 @@
 						"width": 1,
 						"height": 1
 					}
+				},
+				"sm": {
+					"location": {
+						"x": 1,
+						"y": 1
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				},
+				"lg": {
+					"location": {
+						"x": 3,
+						"y": 0
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
 				}
 			},
 			"integration": {
@@ -223,21 +323,21 @@
 			}
 		},
 		{
-			"id": "d189939d-dbdd-47ea-b219-6ed8ee9bf670",
-			"name": "Tencent Video",
-			"url": "https://wetv.vip",
+			"id": "e9479978-8c4c-430a-9bf2-6d038d2d90ad",
+			"name": "Apple TV",
+			"url": "https://tv.apple.com/",
 			"appearance": {
-				"iconUrl": "https://seeklogo.com/images/T/tencent-video-icon-logo-780F21E542-seeklogo.com.png"
+				"iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Apple_TV_Plus_Logo.svg/240px-Apple_TV_Plus_Logo.svg.png"
 			},
 			"network": {
 				"enabledStatusChecker": true,
-				"okStatus": [
-					200
+				"statusCodes": [
+					"200"
 				]
 			},
 			"behaviour": {
 				"isOpeningNewTab": false,
-				"externalUrl": "https://wetv.vip"
+				"externalUrl": "https://tv.apple.com/"
 			},
 			"area": {
 				"type": "category",
@@ -248,8 +348,133 @@
 			"shape": {
 				"md": {
 					"location": {
-						"x": 2,
+						"x": 4,
 						"y": 1
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				},
+				"sm": {
+					"location": {
+						"x": 1,
+						"y": 2
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				},
+				"lg": {
+					"location": {
+						"x": 6,
+						"y": 0
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				}
+			},
+			"integration": {
+				"type": null,
+				"properties": []
+			}
+		},
+		{
+			"id": "8f999f35-144b-45be-b9fe-55828fb35c01",
+			"name": "Deezer",
+			"url": "https://www.deezer.com",
+			"appearance": {
+				"iconUrl": "https://logos-world.net/wp-content/uploads/2021/03/Deezer-Logo.png"
+			},
+			"network": {
+				"enabledStatusChecker": true,
+				"statusCodes": [
+					"200"
+				]
+			},
+			"behaviour": {
+				"isOpeningNewTab": false,
+				"externalUrl": "https://www.deezer.com"
+			},
+			"area": {
+				"type": "category",
+				"properties": {
+					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+				}
+			},
+			"shape": {
+				"md": {
+					"location": {
+						"x": 5,
+						"y": 1
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				},
+				"sm": {
+					"location": {
+						"x": 1,
+						"y": 0
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				},
+				"lg": {
+					"location": {
+						"x": 0,
+						"y": 0
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				}
+			},
+			"integration": {
+				"type": null,
+				"properties": []
+			}
+		},
+		{
+			"id": "988c27d6-99b4-4d63-9d85-9af87934a634",
+			"name": "Plex",
+			"url": "https://app.plex.tv",
+			"appearance": {
+				"iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/plex.png"
+			},
+			"network": {
+				"enabledStatusChecker": true,
+				"statusCodes": [
+					"200",
+					"301",
+					"302",
+					"304",
+					"307",
+					"308"
+				]
+			},
+			"behaviour": {
+				"isOpeningNewTab": true,
+				"externalUrl": "https://app.plex.tv"
+			},
+			"area": {
+				"type": "category",
+				"properties": {
+					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+				}
+			},
+			"shape": {
+				"md": {
+					"location": {
+						"x": 1,
+						"y": 0
 					},
 					"size": {
 						"width": 1,
@@ -273,8 +498,8 @@
 			},
 			"network": {
 				"enabledStatusChecker": false,
-				"okStatus": [
-					200
+				"statusCodes": [
+					"200"
 				]
 			},
 			"appearance": {
@@ -293,7 +518,7 @@
 			"shape": {
 				"md": {
 					"location": {
-						"x": 1,
+						"x": 2,
 						"y": 0
 					},
 					"size": {
@@ -324,86 +549,6 @@
 			}
 		},
 		{
-			"id": "8f258a32-d5b8-427f-ad3f-430769e401de",
-			"name": "Discovery+",
-			"url": "https://www.discoveryplus.com/",
-			"appearance": {
-				"iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Discovery_Plus_logo.svg/440px-Discovery_Plus_logo.svg.png"
-			},
-			"network": {
-				"enabledStatusChecker": true,
-				"okStatus": [
-					200
-				]
-			},
-			"behaviour": {
-				"isOpeningNewTab": false,
-				"externalUrl": "https://www.discoveryplus.com/"
-			},
-			"area": {
-				"type": "category",
-				"properties": {
-					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
-				}
-			},
-			"shape": {
-				"md": {
-					"location": {
-						"x": 3,
-						"y": 1
-					},
-					"size": {
-						"width": 1,
-						"height": 1
-					}
-				}
-			},
-			"integration": {
-				"type": null,
-				"properties": []
-			}
-		},
-		{
-			"id": "e9479978-8c4c-430a-9bf2-6d038d2d90ad",
-			"name": "Apple TV",
-			"url": "https://tv.apple.com/",
-			"appearance": {
-				"iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Apple_TV_Plus_Logo.svg/240px-Apple_TV_Plus_Logo.svg.png"
-			},
-			"network": {
-				"enabledStatusChecker": true,
-				"okStatus": [
-					200
-				]
-			},
-			"behaviour": {
-				"isOpeningNewTab": false,
-				"externalUrl": "https://tv.apple.com/"
-			},
-			"area": {
-				"type": "category",
-				"properties": {
-					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
-				}
-			},
-			"shape": {
-				"md": {
-					"location": {
-						"x": 4,
-						"y": 1
-					},
-					"size": {
-						"width": 1,
-						"height": 1
-					}
-				}
-			},
-			"integration": {
-				"type": null,
-				"properties": []
-			}
-		},
-		{
 			"id": "e0abc1ad-493e-435c-8ea4-f4701c4af171",
 			"name": "Disney+",
 			"url": "https://www.disneyplus.com/home",
@@ -412,8 +557,8 @@
 			},
 			"network": {
 				"enabledStatusChecker": true,
-				"okStatus": [
-					200
+				"statusCodes": [
+					"200"
 				]
 			},
 			"behaviour": {
@@ -429,7 +574,87 @@
 			"shape": {
 				"md": {
 					"location": {
+						"x": 3,
+						"y": 0
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				},
+				"sm": {
+					"location": {
 						"x": 2,
+						"y": 3
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				},
+				"lg": {
+					"location": {
+						"x": 7,
+						"y": 0
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				}
+			},
+			"integration": {
+				"type": null,
+				"properties": []
+			}
+		},
+		{
+			"id": "8f258a32-d5b8-427f-ad3f-430769e401de",
+			"name": "Discovery+",
+			"url": "https://www.discoveryplus.com/",
+			"appearance": {
+				"iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Discovery_Plus_logo.svg/440px-Discovery_Plus_logo.svg.png"
+			},
+			"network": {
+				"enabledStatusChecker": true,
+				"statusCodes": [
+					"200"
+				]
+			},
+			"behaviour": {
+				"isOpeningNewTab": false,
+				"externalUrl": "https://www.discoveryplus.com/"
+			},
+			"area": {
+				"type": "category",
+				"properties": {
+					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+				}
+			},
+			"shape": {
+				"md": {
+					"location": {
+						"x": 2,
+						"y": 1
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				},
+				"sm": {
+					"location": {
+						"x": 0,
+						"y": 2
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				},
+				"lg": {
+					"location": {
+						"x": 5,
 						"y": 0
 					},
 					"size": {
@@ -452,8 +677,8 @@
 			},
 			"network": {
 				"enabledStatusChecker": true,
-				"okStatus": [
-					200
+				"statusCodes": [
+					"200"
 				]
 			},
 			"behaviour": {
@@ -470,46 +695,26 @@
 				"md": {
 					"location": {
 						"x": 5,
-						"y": 1
+						"y": 0
 					},
 					"size": {
 						"width": 1,
 						"height": 1
 					}
-				}
-			},
-			"integration": {
-				"type": null,
-				"properties": []
-			}
-		},
-		{
-			"id": "c854e0e2-da67-401b-abec-e0caad8ad6c3",
-			"name": "HBO Max",
-			"url": "https://hbomax.com",
-			"appearance": {
-				"iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/HBO_Max_Logo_Old.svg/2560px-HBO_Max_Logo_Old.svg.png"
-			},
-			"network": {
-				"enabledStatusChecker": true,
-				"okStatus": [
-					200
-				]
-			},
-			"behaviour": {
-				"isOpeningNewTab": false,
-				"externalUrl": "https://hbomax.com"
-			},
-			"area": {
-				"type": "category",
-				"properties": {
-					"id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
-				}
-			},
-			"shape": {
-				"md": {
+				},
+				"sm": {
 					"location": {
-						"x": 3,
+						"x": 0,
+						"y": 3
+					},
+					"size": {
+						"width": 1,
+						"height": 1
+					}
+				},
+				"lg": {
+					"location": {
+						"x": 8,
 						"y": 0
 					},
 					"size": {
